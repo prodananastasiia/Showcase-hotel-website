@@ -1,0 +1,78 @@
+body {
+  background:     linear-gradient(180deg, rgba(255, 253, 253, 0.77) 0%, rgba(84, 76, 76, 0.45) 100%);
+  background-attachment: fixed; 
+  text-align: center;
+}
+.banner{
+  margin-bottom: 80px;
+}
+
+input[type=date], select {
+  width: 200px;
+  padding: 12px 30px;
+  margin-top: 30px;
+  font-size: 20px;
+  display: block;
+  border: 1px solid black;
+  background: none;
+  box-sizing: border-box;
+  letter-spacing: 0.045em;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.22);
+  margin: 10px 10px 5px 0;
+  margin-left: 50px;
+}
+
+
+label{
+  font-size: 24px;
+  align-items: center;
+  letter-spacing: 0.045em;
+  font-weight: 500;
+  font-style: normal;
+  font-family: 'Inter', sans-serif;
+  margin-left: 50px;
+}
+
+input[type=number], select {
+  width: 200px;
+  height: 55px;
+  padding: 12px 30px;
+  margin-top: 30px;
+  font-size: 20px;
+  display: block;
+  border: 1px solid black;
+  background: none;
+  box-sizing: border-box;
+  letter-spacing: 0.045em;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.22);
+  margin: 20px 10px 5px 0;
+  margin-left: 50px;
+}
+
+  input[type=submit] {
+    width: 200px;
+    height: 54px;
+    background-color: #312E2E;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    margin-left: 10pxpx;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.045em;
+    color: #AAA1A1;
+  }
+
+
