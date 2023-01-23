@@ -7,8 +7,9 @@ body {
   margin-bottom: 80px;
 }
 
-input[type=date], select {
+input[type=date] {
   width: 200px;
+  height: 55px;
   padding: 12px 30px;
   margin-top: 30px;
   font-size: 20px;
@@ -28,19 +29,18 @@ input[type=date], select {
 
 label{
   font-size: 24px;
-  align-items: center;
   letter-spacing: 0.045em;
-  font-weight: 500;
+  font-weight: 300;
   font-style: normal;
   font-family: 'Inter', sans-serif;
   margin-left: 50px;
+  float: left;
 }
 
-input[type=number], select {
+input[type=number] {
   width: 200px;
   height: 55px;
   padding: 12px 30px;
-  margin-top: 30px;
   font-size: 20px;
   display: block;
   border: 1px solid black;
@@ -57,14 +57,14 @@ input[type=number], select {
 
   input[type=submit] {
     width: 200px;
-    height: 54px;
+    height: 55px;
     background-color: #312E2E;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    margin-left: 10pxpx;
+    margin-left: 10px;
     margin-top: 50px;
     font-size: 20px;
     font-family: 'Inter', sans-serif;
@@ -74,5 +74,3 @@ input[type=number], select {
     letter-spacing: 0.045em;
     color: #AAA1A1;
   }
-
-
