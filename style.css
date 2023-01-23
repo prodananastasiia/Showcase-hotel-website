@@ -198,7 +198,7 @@ body {
  margin-top: -680px;
 }
 .room3{
-  margin-top: 150px;
+  margin-top: 50px;
   margin-left: 150px;
 
 
@@ -226,8 +226,84 @@ body {
   cursor: pointer;
   font-family: 'Inter', sans-serif;
   letter-spacing: 0.255em;
-
 }
+
+.locations{
+  text-align: center;
+  font-family: 'Cormorant Infant', serif;
+  font-style: italic;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 80px;
+  letter-spacing: 0.255em;
+  color: black;
+}
+
+.map{
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+
+.footer-left {
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 150px;
+  margin-top: 60px;
+}
+.footer-left a{
+  color: black;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.footer-left li{
+  margin: 10px 0;
+}
+
+.footer-middle {
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 700px;
+  margin-top: -310px;
+}
+.footer-middle a{
+  color: black;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.footer-middle li{
+  margin: 10px 0;
+}
+.footer-right {
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 1150px;
+  margin-top: -270px;
+}
+.footer-right li{
+  margin-left: 40px;
+}
+
+
+
 
 
 
