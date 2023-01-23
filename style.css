@@ -5,9 +5,11 @@ body {
 
 .nav-bar {
     width: 100%;  
-    height: 80px; 
+    height: 70px; 
     position: fixed;
     top: 0;
+    background-color: white;
+
     
 }
 .logo {
@@ -43,8 +45,9 @@ body {
     font-family: 'Cormorant Infant', serif;
     font-style: italic;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 80px;
     line-height: 20px;
+    font-weight: 500;
     letter-spacing: 0.90em;
     margin-bottom: 50px;
     margin-top: 150px;
@@ -105,11 +108,10 @@ body {
 
 
 
-.room{
+.room1{
     margin-top: 150px;
-    width: 30%;
-    height: 20%;
     margin-left: 150px;
+
   
 }
 
@@ -126,6 +128,107 @@ body {
   margin-left: 800px;
   margin-top: -800px;
 }
+.sign1{
+  margin-top: 15px;
+}
+
+
+.card{
+  border: 1.5px solid rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  width: 316px;
+  height: 190px;
+  margin-left: 150px;
+  margin-top: 50px;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  overflow: hidden;
+}
+.hide{
+  display: none;
+}
+.card:hover + .hide{
+  display: block;
+  color: white;
+  background-color: black;
+  box-sizing: border-box;
+  width: 316px;
+  height: 50px;
+  margin-left: 150px;
+  margin-top: -50px;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 10px;
+}
+.card2{
+  border: 1.5px solid rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  width: 316px;
+  height: 190px;
+  margin-left: 350px;
+  margin-top: 50px;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  overflow: hidden;
+}
+.card2:hover + .hide{
+  display: block;
+  color: white;
+  background-color: black;
+  box-sizing: border-box;
+  width: 316px;
+  height: 50px;
+  margin-left: 350px;
+  margin-top: -50px;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 10px;
+}
+
+.room2{
+ margin-left: 750px;
+ margin-top: -680px;
+}
+.room3{
+  margin-top: 150px;
+  margin-left: 150px;
+
+
+}
+.text-2{
+  position: absolute;
+  text-align: center;
+  font-family: 'Cormorant Infant', serif;
+  font-style: italic;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 80px;
+  letter-spacing: 0.255em;
+  color: black;
+  margin-left: 800px;
+  margin-top: -730px;
+}
+
+.btn2{
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  background: none;
+  color: black;
+  padding: 20px 65px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.255em;
+
+}
+
 
 
 
