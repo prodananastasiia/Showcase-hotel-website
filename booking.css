@@ -21,7 +21,7 @@ input[type=date] {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  color: rgba(0, 0, 0, 0.22);
+  color: black;
   margin: 10px 10px 5px 0;
   margin-left: 50px;
 }
@@ -50,7 +50,7 @@ input[type=number] {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  color: rgba(0, 0, 0, 0.22);
+  color: black;
   margin: 20px 10px 5px 0;
   margin-left: 50px;
 }
@@ -74,4 +74,37 @@ input[type=number] {
     letter-spacing: 0.045em;
     color: #AAA1A1;
   }
-  
+  input[type=email] {
+    width: 200px;
+    height: 55px;
+    padding: 12px 30px;
+    font-size: 20px;
+    display: block;
+    border: 1px solid black;
+    background: none;
+    box-sizing: border-box;
+    letter-spacing: 0.045em;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    margin: 20px 10px 5px 0;
+    margin-left: 50px;
+  }
+  input[type=text] {
+    width: 200px;
+    height: 55px;
+    padding: 12px 30px;
+    font-size: 20px;
+    display: block;
+    border: 1px solid black;
+    background: none;
+    box-sizing: border-box;
+    letter-spacing: 0.045em;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    margin: 20px 10px 5px 0;
+    margin-left: 50px;
+  }
