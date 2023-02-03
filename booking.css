@@ -1,10 +1,31 @@
 body {
-  background:     linear-gradient(180deg, rgba(255, 253, 253, 0.77) 0%, rgba(84, 76, 76, 0.45) 100%);
-  background-attachment: fixed; 
+  background: linear-gradient(180deg, rgba(255, 253, 253, 0.77) 0%, rgba(84, 76, 76, 0.45) 100%);
+  background-attachment: fixed;
   text-align: center;
 }
-.banner{
-  margin-bottom: 80px;
+
+.banner {
+  margin-bottom: 50px;
+}
+
+.custom-select {
+  margin-bottom: 40px;
+  margin-left: 50px;
+}
+
+select {
+  background: none;
+  margin-left: 30px;
+  margin-left: 50px;
+  width: 220px;
+  border: none;
+  font-size: 24px;
+  letter-spacing: 0.045em;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: black;
+  cursor: pointer;
 }
 
 input[type=date] {
@@ -24,10 +45,11 @@ input[type=date] {
   color: black;
   margin: 10px 10px 5px 0;
   margin-left: 50px;
+  cursor: pointer;
 }
 
 
-label{
+label {
   font-size: 24px;
   letter-spacing: 0.045em;
   font-weight: 300;
@@ -35,6 +57,7 @@ label{
   font-family: 'Inter', sans-serif;
   margin-left: 50px;
   float: left;
+
 }
 
 input[type=number] {
@@ -55,56 +78,58 @@ input[type=number] {
   margin-left: 50px;
 }
 
-  input[type=submit] {
-    width: 200px;
-    height: 55px;
-    background-color: #312E2E;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    margin-left: 10px;
-    margin-top: 50px;
-    font-size: 20px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    text-align: center;
-    letter-spacing: 0.045em;
-    color: #AAA1A1;
-  }
-  input[type=email] {
-    width: 200px;
-    height: 55px;
-    padding: 12px 30px;
-    font-size: 20px;
-    display: block;
-    border: 1px solid black;
-    background: none;
-    box-sizing: border-box;
-    letter-spacing: 0.045em;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    color: black;
-    margin: 20px 10px 5px 0;
-    margin-left: 50px;
-  }
-  input[type=text] {
-    width: 200px;
-    height: 55px;
-    padding: 12px 30px;
-    font-size: 20px;
-    display: block;
-    border: 1px solid black;
-    background: none;
-    box-sizing: border-box;
-    letter-spacing: 0.045em;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    color: black;
-    margin: 20px 10px 5px 0;
-    margin-left: 50px;
-  }
+input[type=submit] {
+  width: 200px;
+  height: 55px;
+  background-color: #312E2E;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.045em;
+  color: #AAA1A1;
+}
+
+input[type=email] {
+  width: 200px;
+  height: 55px;
+  padding: 12px 30px;
+  font-size: 20px;
+  display: block;
+  border: 1px solid black;
+  background: none;
+  box-sizing: border-box;
+  letter-spacing: 0.045em;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: black;
+  margin: 20px 10px 5px 0;
+  margin-left: 50px;
+}
+
+input[type=text] {
+  width: 200px;
+  height: 55px;
+  padding: 12px 30px;
+  font-size: 20px;
+  display: block;
+  border: 1px solid black;
+  background: none;
+  box-sizing: border-box;
+  letter-spacing: 0.045em;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: black;
+  margin: 20px 10px 5px 0;
+  margin-left: 50px;
+}
